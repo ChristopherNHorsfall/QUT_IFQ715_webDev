@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .ag-theme-alpine {
+        height: 50vh; /* Smaller height on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .ag-theme-alpine {
+        height: 40vh;
+        width: 100vw; /* Full width on very small screens */
+    }
+}

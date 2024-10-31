@@ -1,0 +1,135 @@
+/* Basic reset to remove default margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the navbar */
+.navbar {
+    background-color: #f8f9fa; 
+    padding: 1rem; 
+}
+
+/* Placeholder logo styling */
+.logo-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Basic styles for navigation links */
+.nav-link {
+    color: #000; 
+    margin-right: 1rem; 
+}
+
+/* Style the search input and button */
+.form-inline .form-control {
+    margin-right: 5px; 
+}
+
+.form-inline .btn {
+    background-color: #007bff; 
+    color: #fff; /* White text on button */
+}
+
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+
+.ml-auto {
+    margin-left: auto ;
+}
+
+.card {
+    margin-bottom: 20px; 
+}
+.card-img-top {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    background-color: #e9ecef; 
+}
+.card-text {
+    margin-bottom: 0; 
+}
+.price {
+    font-weight: bold;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+}
+.banner {
+    background-color: #f8f9fa; 
+    padding: 20px 0;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+.image-placeholder {
+    width: 100%;
+    height: 300px; 
+    background-color: #d3d3d3; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-placeholder img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.carousel-item img {
+    height: 500px; 
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+}
+.carousel-placeholder .carousel-item  {
+    background-color: #f0f0f0; 
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; 
+    border: 1px solid red;
+}
+
+.placeholder-text {
+    font-size: 1.5rem;
+    color: #333; 
+    font-weight: bold;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1); /* Makes controls more visible against light backgrounds */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}

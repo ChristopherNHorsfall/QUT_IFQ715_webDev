@@ -1,0 +1,36 @@
+
+p{font-size: 9pt;}
+/*img{max-width: 30%;}*/
+title{font-size: 14pt;color: red;}
+article title{font-size: 16pt; }
+article p{font-size: 11pt;}
+.flex-container {
+    display: flex;
+ }
+.space-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.gap1{
+    gap:1rem;
+}
+.width-100 {
+    width: 100%;
+}
+.center-text {
+    text-align: center;
+}
+section {
+    margin-top:1rem;
+}
+.width-25{
+    width:25%;
+}
+.featured-article {
+    background-color: burlywood;
+}
+.flex-end{
+    justify-content: flex-end;
+}
